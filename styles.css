@@ -53,6 +53,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 20px;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .nav-brand {
@@ -62,8 +64,10 @@ body {
 }
 
 .nav-brand .logo {
-    height: 60px;
+    height: 50px;
     width: auto;
+    max-width: 200px;
+    object-fit: contain;
     transition: transform 0.3s ease;
 }
 
@@ -578,7 +582,8 @@ body {
     }
 
     .nav-brand .logo {
-        height: 50px;
+        height: 40px;
+        max-width: 150px;
     }
 
     .nav-menu {
