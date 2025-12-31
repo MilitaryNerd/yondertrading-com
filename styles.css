@@ -139,31 +139,32 @@ body {
 }
 
 .hero-company-name {
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 3.75rem;
+    font-weight: 700;
     color: white;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     letter-spacing: -0.02em;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-title {
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 1.4;
-    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 1.25rem;
     letter-spacing: -0.015em;
-    color: #e2e8f0;
+    color: #f1f5f9;
 }
 
 .hero-subtitle {
-    font-size: 1.25rem;
-    line-height: 1.8;
+    font-size: 1.35rem;
+    line-height: 1.7;
     color: #cbd5e1;
     margin-bottom: 2.5rem;
-    max-width: 700px;
+    max-width: 750px;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 400;
 }
 
 .hero-cta {
@@ -607,15 +608,15 @@ body {
     }
 
     .hero-company-name {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     .hero-title {
-        font-size: 1.35rem;
+        font-size: 1.5rem;
     }
 
     .hero-subtitle {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .section {
